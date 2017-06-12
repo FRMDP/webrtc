@@ -1,0 +1,28 @@
+video, canvas, .calidad, .botones-fotos {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+video, canvas {
+    background-color: #eee;
+}
+
+.btn {
+  position: relative;
+  padding: 12px 24px;
+  border-width: 0;
+  outline: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  cursor: pointer;
+  background-color: #2ecc71;
+  color: #ecf0f1;
+  transition: background-color .3s;
+  font-family: Helvetica;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #27ae60;
+}
